@@ -1,0 +1,72 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<style>
+
+body{
+  background-color: gray;
+
+}
+
+header{
+  background-color: rgba(45,45,45,0.1);
+}
+h1{
+  color: purple;
+  font-family: Roboto, monospace;
+  text-align: center;
+  padding: 15px;
+}
+h2{
+ color: purple;
+ text-align: center;
+ padding: 15px;
+}
+.color-morado{
+  color: purple;
+}
+.color-rojo{
+  color: red;
+}
+p{
+  font-family: Roboto;
+}
+
+.imagen-peque{ /*Centrar o acomodar imagen???*/
+  width: 100px;
+  border-radius: 50%;
+}
+
+/*
+.fondo-gris{
+  background-color: rgba(20,20,20,0.3);
+  margin: -15px;
+}
+*/
+
+/*Hacer que se agrande el enlace al pasar el cursor por encima*/
+/*
+#enlace{
+
+}
+
+a:hover{
+  transform: scale(2);
+}
+*/
+
+
+  .fullCard {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+  .cardContent {
+    padding: 10px;
+    text-align: center;
+  }
+
+
+
+</style>
