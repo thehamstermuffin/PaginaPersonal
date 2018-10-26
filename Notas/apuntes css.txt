@@ -40,15 +40,28 @@ Determining whether content can stand alone is usually a judgement call, but the
   <input type="text" id="name" name="name">
 </form>
 
+<fieldset><legend>
+
+<time>
+<time datetime>It helps avoid confusion by stating a standardized version of a time, even if it's written in an informal or colloquial manner in the text.
+
+
+
 cuando no se especifica pagina se va a index.html
+The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text. 
+First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
 
 &lt menor que 
 &gt mayor que
 
 <head><title>    Nombre de la ventana
 
+
+CSS
+
 <link rel="stylesheet" href="styles.css">
 styles.css
 
 
+display: none; or visibility: hidden; hides content for everyone, including screen reader users
 
