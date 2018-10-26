@@ -1,0 +1,54 @@
+elementos
+
+strong negritas
+u subrayar
+em enfasis(inclinado/italics)
+s tachado(strike)
+
+hr separador
+
+br line break
+---------------------------------------
+Video
+addon live server para visual studio
+-Crear pagina de grupo de musica favorito
+-descargar imagenes que se usaran
+
+<main>
+
+<header>header is meant for use in the body tag of your HTML document. This is different than the head element, which contains the page's title, meta information, etc.
+
+<section>  vs <article>
+Determining whether content can stand alone is usually a judgement call, but there are a couple simple tests you can use. Ask yourself if you removed all surrounding context, would that content still make sense? Similarly for text, would the content hold up if it were in an RSS feed?
+<div> - groups content
+<section> - groups related content
+<article> - groups independent, self-contained content
+
+<footer>
+<nav>
+
+<div>
+<span>
+
+<audio>
+
+<figure> <figcaption>
+
+<label> etiqueta texto debe coincidir con el id
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+</form>
+
+cuando no se especifica pagina se va a index.html
+
+&lt menor que 
+&gt mayor que
+
+<head><title>    Nombre de la ventana
+
+<link rel="stylesheet" href="styles.css">
+styles.css
+
+
+
