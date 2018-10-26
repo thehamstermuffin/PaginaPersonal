@@ -1,0 +1,51 @@
+Dia 1: aprendi a usar git desde consola, al menos lo básico
+ No pude abrir eclipse al parecer es un problema de mi versión de ubuntu.
+Dia 2: Revise como hacer un hola mundo en java;
+
+Dia 3: ¿Qué funcionó?
+-Repaso sobre clases en java
+¿Qué no funcionó?
+-nano es incomodo para estar programando
+
+Pendientes
+Crear blog y/o encontrar como anexar texto en linux
+Buscar otro editor que se ajuste mejor para programar
+Para terminar el 321E falta agregar los minutos en texto
+
+Día 4:Hice una pequeña pagina con puro html
+
+¿Qué funcionó?
+La página esta como debería
+Comence a usar Atom como editor de texto.
+
+¿Qué no funcionó?
+No se muestran las letras con acentos
+
+Pendientes:
+Hacer que los enlaces manden a páginas.
+
+Día 5: programa sobre subfactoriales
+
+¿Qué funciono?
+Operaciones en java
+
+¿Qué no funciono?
+No estoy seguro del resultado con numeros grandes
+Cómo usar factorial en java
+
+Pendientes:
+Pedir input en java.
+
+Día 6:creación de mi página web
+
+¿Qué funcionó?
+Agregue varias cosas a la página
+-mascotas
+-area de pruebas
+
+¿Qué no funcionó?
+Estuve como 3 horas trabajando en esto, sin asimilar bien lo que estaba aprendiendo
+
+Pendientes:
+Mejorar el estilo de la página
+Investigar como montar un servidor.
