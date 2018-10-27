@@ -1,4 +1,4 @@
-elementos
+---------------elementos-------------------------------------
 
 strong negritas
 u subrayar
@@ -13,6 +13,9 @@ Video
 addon live server para visual studio
 -Crear pagina de grupo de musica favorito
 -descargar imagenes que se usaran
+
+---------------etiquetas de html5--------------------------
+<head><title>    Nombre de la ventana
 
 <main>
 
@@ -48,16 +51,18 @@ Determining whether content can stand alone is usually a judgement call, but the
 
 
 cuando no se especifica pagina se va a index.html
-The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text. 
+The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text.
 First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
 
-&lt menor que 
+
+-----------------------------------------------------
+&lt menor que
 &gt mayor que
 
-<head><title>    Nombre de la ventana
 
 
-CSS
+
+--------------------CSS-------------------------
 
 <link rel="stylesheet" href="styles.css">
 styles.css
@@ -65,3 +70,10 @@ styles.css
 
 display: none; or visibility: hidden; hides content for everyone, including screen reader users
 
+
+--------------------Flexbox------------------------
+display:flex; convierte en una caja de flex
+justify-content:center;
+align-items: flex-start;
+flex-wrap:wrap;
+flex-shrink: ###;

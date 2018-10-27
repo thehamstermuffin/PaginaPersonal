@@ -49,3 +49,15 @@ Estuve como 3 horas trabajando en esto, sin asimilar bien lo que estaba aprendie
 Pendientes:
 Mejorar el estilo de la página
 Investigar como montar un servidor.
+
+Día 7:Ajustar página web al estandar html5
+
+¿Qué funcionó?
+El codigo de la página ya esta de acuerdo al estandar html5
+
+¿Qué no funcionó?
+
+
+Pendientes:
+
+

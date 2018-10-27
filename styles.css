@@ -33,10 +33,22 @@
     font-family: Roboto;
   }
 
+  footer{
+    text-align: center;
+  }
   .imagen-peque{ /*Centrar o acomodar imagen???*/
 
     width: 100px;
     border-radius: 50%;
+  }
+
+  .nav-list{
+    height: 5vh;
+
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap:wrap;/*ir a varias filas cuand ya no cabe*/
   }
 
   /*
