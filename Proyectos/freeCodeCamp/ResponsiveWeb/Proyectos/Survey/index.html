@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Build a Survey Form</title>
+  
+  
+  
+  
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!--User Story #1: I can see a title with id="title" in H1 sized text.
+User Story #2: I can see a short explanation with id="description" in P sized text.
+User Story #3: I can see a form with id="survey-form".
+User Story #4: Inside the form element, I am required to enter my name in a field with id="name".
+User Story #5: Inside the form element, I am required to enter an email in a field with id="email".
+User Story #6: If I enter an email that is not formatted correctly, I will see an HTML5 validation error.
+User Story #7: Inside the form, I can enter a number in a field with id="number".
+User Story #8: If I enter non-numbers in the number input, I will see an HTML5 validation error.
+User Story #9: If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error.
+User Story #10: For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label".
+User Story #11: For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.
+User Story #12: Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".
+User Story #13: Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.
+User Story #14: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.
+User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
+User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
+-->
+
+<html>
+  <head>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Encuesta
+      </h1>
+      <p id="description">
+        Encuesta para saber viabilidad del proyecto
+      </p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <label id="name-label">
+          Nombre:<input type="text" id="name" name="name" required placeholder="Nombre">
+        </label>
+        <label id="email-label">
+          E-mail:<input type="email" id="email" name="email" required placeholder="email">
+        </label>
+        <label id="number-label">
+          Edad:<input type="number" id="number" name="number" placeholder="edad" min="8" max="100">
+        </label>
+        <div>¿Como estas?: 
+          <select id="dropdown">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </select> 
+        </div>
+        <div>
+          ¿Lo comprarías?
+          <input type="checkbox" name="comprar" value="si">Sí
+          <input type="checkbox" name="comprar" value="no">No
+        </div>
+        <div>
+          ¿Cuánto estarías dispuesto a pagar?
+          <div>
+            <input type="radio" name="costo" value="max200">0$-200$ 
+            <input type="radio" name="costo" value="201-500">201$-500$ 
+            <input type="radio" name="costo" value="501-750">501$-750$ 
+            <input type="radio" name="costo" value="751-1000">751$-1000$ 
+            <input type="radio" name="costo" value="1000-1500">1000-1500$ 
+            <input type="radio" name="costo" value="1500">mas de 1500$
+          </div>
+        </div>
+        <div>
+          Comentarios:
+           <textarea rows="4" cols="50">
+Dejanos tu comentario.
+</textarea> 
+        </div>
+        <div>
+          <button type="submit" id="submit">Enviar</button>  
+        </div>
+      </form>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
