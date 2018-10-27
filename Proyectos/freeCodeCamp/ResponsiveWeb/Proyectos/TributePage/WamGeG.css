@@ -1,0 +1,39 @@
+/*<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet"> 
+*/
+html{
+  /*font-family: "Charmonman" "Playfair Display";*/
+
+}
+header{
+  text-align: center;
+   background-color:silver;
+}
+footer{
+   background-color:silver;
+  text-align:center;
+}
+
+#img-div{
+  
+  text-align:center;
+ /* margin:auto;*/
+
+  /*width:100vw;*/
+}
+
+#image{
+  display:block;
+max-width:100%;
+  margin: auto;
+
+
+}
+#img-caption{
+
+}
+
+#main{
+  margin: 1vw;
+  text-align: justify;
+}

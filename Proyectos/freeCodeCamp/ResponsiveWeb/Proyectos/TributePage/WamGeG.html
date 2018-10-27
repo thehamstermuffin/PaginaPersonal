@@ -1,0 +1,68 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!--
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding!
+
+- The freeCodeCamp Team
+
+-->
+
+<!--
+User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
+User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+User Story #3: I should see a div element with a corresponding id="img-div".
+User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+User Story #9: The img element should be centered within its parent element.
+
+-->
+
+<html5>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!--Importar estilos de css-->
+    <link rel="stylesheet" href="WamGeG.css">
+
+    <title>Stallman Tribute</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Richard Stallman</h1>
+      <h2> Founder of the Free Software Foundation</h2>
+    </header>
+
+    <main id="main">
+      <!-- The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+
+The img element should be centered within its parent element.-->
+      <div id="img-div">
+        <img id="image" src="https://hackadaycom.files.wordpress.com/2016/01/stallman.jpg?w=800" alt="Photo of stallman">
+        <p id="img-caption"> Richard Stallman</p>
+      </div>
+      <article id="tribute-info">
+        <p>Richard Matthew Stallman (/ˈstɔːlmən/; born 1953), often known by his initials, RMS, is an American free software movement activist and programmer. He campaigns for software to be distributed in a manner such that its users receive the freedoms to use, study, distribute and modify that software. Software that ensures these freedoms is termed free software. Stallman launched the GNU Project, founded the Free Software Foundation, developed the GNU Compiler Collection and GNU Emacs, and wrote the GNU General Public License.
+</p>
+<p>
+Stallman launched the GNU Project in September 1983 to create a Unix-like computer operating system composed entirely of free software. With this, he also launched the free software movement. He has been the GNU project's lead architect and organizer, and developed a number of pieces of widely used GNU software including, among others, the GNU Compiler Collection, the GNU Debugger and the GNU Emacs text editor. In October 1985 he founded the Free Software Foundation.
+</p>
+<p>
+Stallman pioneered the concept of copyleft, which uses the principles of copyright law to preserve the right to use, modify and distribute free software, and is the main author of free software licenses which describe those terms, most notably the GNU General Public License (GPL), the most widely used free software license.
+        </p>
+<p>
+In 1989 he co-founded the League for Programming Freedom. Since the mid-1990s, Stallman had spent most of his time advocating for free software, as well as campaigning against software patents, digital rights management (which he referred to as digital restrictions management, calling the more common term misleading), and other legal and technical systems which he sees as taking away users' freedoms. This has included software license agreements, non-disclosure agreements, activation keys, dongles, copy restriction, proprietary formats and binary executables without source code.
+        </p>
+      </article>
+    </main>
+
+    <footer>
+      <div> For more information, visit <a href="https://stallman.org/" id="tribute-link" target="_blank">Richard Stallman's Personal Site </a> </div>
+    </footer>
+  </body>
+</html5>
