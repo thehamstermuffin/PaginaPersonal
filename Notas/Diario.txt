@@ -61,3 +61,20 @@ El codigo de la página ya esta de acuerdo al estandar html5
 Pendientes:
 
 
+Día 8:proyectos html y css
+¿Qué funcionó?
+complete los requerimientos de los proyectos
+
+¿Qué no funcionó?
+me cuesta mucho trabajo dar estilo con css, sobre todo estilo dinamico
+
+Pendientes:proyecto 5
+
+Día 9:proyectos html y css javascript basico
+¿Qué funcionó?
+Mejore el estilo en la página que hice hoy
+
+¿Qué no funcionó?
+no queda parejo el estilo en css
+
+Pendientes: mejorar estilo en pagina personal
