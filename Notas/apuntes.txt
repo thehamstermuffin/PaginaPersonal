@@ -106,3 +106,29 @@ una vez creadas las areas, se pueden acomodar de la siguiente manera
 otra forma es:
 grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
 item1 { grid-area: 1/1/2/4; }
+
+----------------JavaScript-----------------
+data types which are undefined, null, boolean, string, symbol, number, and object
+When JavaScript variables are declared, they have an initial value of undefined
+In JavaScript all variables and function names are case sensitive
+
+est Practice
+Write variable names in JavaScript in camelCase.
+
+String values in JavaScript may be written with single or double quotes, as long as you start and end with the same type of quote.
+In JavaScript, String values are immutable, which means that they cannot be altered once created.
+
+-------------Arrays------------------
+There shouldn't be any spaces between the array name and the square brackets, like array [0][0] and even this array [0] [0] is not allowed. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
+
+myarray.push([]) agrega al final
+myarray.pop()  quita el ultimo elemento
+myarray.shift() quita el primer elemento
+myarray.unshift([]) agrega el primer elemento
+
+
+--------------funciones----
+function functionName() {
+  console.log("Hello World");
+}
+Variables which are used without the var keyword are automatically created in the global scope.
