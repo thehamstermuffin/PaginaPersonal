@@ -1,0 +1,134 @@
+---------------elementos-------------------------------------
+
+strong negritas
+u subrayar
+em enfasis(inclinado/italics)
+s tachado(strike)
+
+hr separador
+
+br line break
+---------------------------------------
+Video
+addon live server para visual studio
+-Crear pagina de grupo de musica favorito
+-descargar imagenes que se usaran
+
+---------------etiquetas de html5--------------------------
+<head><title>    Nombre de la ventana
+
+<main>
+
+<header>header is meant for use in the body tag of your HTML document. This is different than the head element, which contains the page's title, meta information, etc.
+
+<section>  vs <article>
+Determining whether content can stand alone is usually a judgement call, but there are a couple simple tests you can use. Ask yourself if you removed all surrounding context, would that content still make sense? Similarly for text, would the content hold up if it were in an RSS feed?
+<div> - groups content
+<section> - groups related content
+<article> - groups independent, self-contained content
+
+<footer>
+<nav>
+
+<div>
+<span>
+
+<audio>
+
+<figure> <figcaption>
+
+<label> etiqueta texto debe coincidir con el id
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+</form>
+
+<fieldset><legend>
+
+<time>
+<time datetime>It helps avoid confusion by stating a standardized version of a time, even if it's written in an informal or colloquial manner in the text.
+
+
+
+cuando no se especifica pagina se va a index.html
+The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text.
+First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
+
+
+-----------------------------------------------------
+&lt menor que
+&gt mayor que
+
+
+#variable ->id
+.variable ->clase
+
+--------------------CSS-------------------------
+
+<link rel="stylesheet" href="styles.css">
+styles.css
+
+
+display: none; or visibility: hidden; hides content for everyone, including screen reader users
+
+
+--------------------Flexbox------------------------
+display:flex; convierte en una caja de flex
+justify-content:center;
+align-items: flex-start;
+flex-wrap:wrap;
+flex-shrink: ###;
+
+
+------------------Grid--------------------------
+display:grid;
+grid-template-columns: 100px 100px 100px;
+grid-template-columns: 1fr 100px 2fr;
+    Lets say you want a grid with 100 rows of the same height. It isn't very practical to insert 100 values individually. Fortunately, there's a better way - by using the repeat function to specify the number of times you want your column or row to be repeated, followed by a comma and the value you want to repeat.
+     minmax. It's used to limit the size of items when the grid container changes size. To do this you need to specify the acceptable size range for
+     The repeat function comes with an option called auto-fill. This allows you to automatically insert as many rows or columns of your desired size as possible depending on the size of the container.
+     auto-fit
+grid-template-rows: 50px 50px;
+grid-column-gap:10px;
+grid-column:2/4; abarca de la columna 2 a la 4
+align-self:end;
+justify-items:
+align items:
+
+grid-template-areas:
+"header header header"
+  "advert content content"
+  "footer footer footer";
+
+una vez creadas las areas, se pueden acomodar de la siguiente manera
+.item1 { grid-area: header; }
+
+otra forma es:
+grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at;
+item1 { grid-area: 1/1/2/4; }
+
+----------------JavaScript-----------------
+data types which are undefined, null, boolean, string, symbol, number, and object
+When JavaScript variables are declared, they have an initial value of undefined
+In JavaScript all variables and function names are case sensitive
+
+est Practice
+Write variable names in JavaScript in camelCase.
+
+String values in JavaScript may be written with single or double quotes, as long as you start and end with the same type of quote.
+In JavaScript, String values are immutable, which means that they cannot be altered once created.
+
+-------------Arrays------------------
+There shouldn't be any spaces between the array name and the square brackets, like array [0][0] and even this array [0] [0] is not allowed. Although JavaScript is able to process this correctly, this may confuse other programmers reading your code.
+
+myarray.push([]) agrega al final
+myarray.pop()  quita el ultimo elemento
+myarray.shift() quita el primer elemento
+myarray.unshift([]) agrega el primer elemento
+
+
+--------------funciones----
+function functionName() {
+  console.log("Hello World");
+}
+Variables which are used without the var keyword are automatically created in the global scope.
