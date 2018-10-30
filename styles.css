@@ -28,10 +28,10 @@ Palette UID: 14d050kllllaFw0g0qFqFg0w0aF pastel*/
   }*/
 #welcome-page{
   background-color: #605292;
-  display: flex;
+/*  display: flex;*/
   width: 100vw;
   height: 100vh;
-  align-items: center;
+/*  align-items: center;*/
 
 }
 #nav-bar{
@@ -61,7 +61,18 @@ Palette UID: 14d050kllllaFw0g0qFqFg0w0aF pastel*/
    text-align: center;
    padding: 15px;
   }
-
+  /*
+.general-header{
+  float:right;
+  overflow:auto;
+}
+.specific-header{
+  float:left;
+  overflow:auto;
+}*/
+body{
+  padding-top: 100px;
+}
   footer{
     text-align: center;
   }
