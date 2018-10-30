@@ -17,7 +17,7 @@ Palette UID: 14d050kllllaFw0g0qFqFg0w0aF pastel*/
 
 /*Aplicar esto a todo*/
 *{
-    background-color: #403075;
+    background-color: #625292;
     font-family: Roboto, monospace;
     color:#12073B;
     text-align: center;
@@ -27,7 +27,7 @@ Palette UID: 14d050kllllaFw0g0qFqFg0w0aF pastel*/
     background-color: rgba(45,45,45,0.1);
   }*/
 #welcome-page{
-  background-color: #605292;
+  background-color: #403075;
 /*  display: flex;*/
   width: 100vw;
   height: 100vh;
