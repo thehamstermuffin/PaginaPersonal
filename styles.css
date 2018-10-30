@@ -2,9 +2,10 @@
 /*Palette UID: 14d050kuiiUvNtru4nlwudexs7O
 Palette UID: 14d050kllllaFw0g0qFqFg0w0aF pastel*/
 <style>
-:root {
-  --main-color: red;
-}
+
+/*Si no esta esta linea no funciona *{}*/
+:root {}
+/*
 .color-morado{
   color: purple;
 }
@@ -14,7 +15,7 @@ Palette UID: 14d050kllllaFw0g0qFqFg0w0aF pastel*/
 .nav-background{
   color: red;
 }
-
+*/
 /*Aplicar esto a todo*/
 *{
     background-color: #625292;
@@ -94,12 +95,6 @@ main{
     flex-wrap:wrap;/*ir a varias filas cuand ya no cabe*/
   }
 
-  /*
-  .fondo-gris{
-    background-color: rgba(20,20,20,0.3);
-    margin: -15px;
-  }
-  */
 
   /*Hacer que se agrande el enlace al pasar el cursor por encima*/
   /*
