@@ -1,54 +1,60 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+/*Palette UID: 14d050kuiiUvNtru4nlwudexs7O*/
 <style>
+:root {
+  --main-color: #06c;
+}
+.color-morado{
+  color: purple;
+}
+.color-rojo{
+  color: red;
+}
+.nav-background{
+  color: red;
+}
 
-
-  body{
-    color: red;
+/*Aplicar esto a todo*/
+*{
+/*    background-color: ;*/
   }
 
 /*  header, footer{
     background-color: rgba(45,45,45,0.1);
   }*/
 #welcome-page{
+  background-color: #23202D;
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-color: #243732;
-
   align-items: center;
+
 }
 #nav-list{
+  background-color: var(--main-color);
   position: fixed;
   top:0;
   left:0;
   display: flex;
   flex-wrap: wrap;
-
-  background-color: #5B6864;
   width:100vw;
 
 }
 .nav-link{
     margin: 10px;
 }
-  h1{
-    color: purple;
+#welcome-text{
+    color: #16151d;
     font-family: Roboto, monospace;
     text-align: center;
     padding: 15px;
   }
-  h2{
-   color: purple;
+#head-title{
+   color: #0c0b0f;
    text-align: center;
    padding: 15px;
   }
-  .color-morado{
-    color: purple;
-  }
-  .color-rojo{
-    color: red;
-  }
+
   p{
     font-family: Roboto;
   }
@@ -103,7 +109,7 @@
   }
 
 .logo{
-  height: 50px;
+  height: 50px
 }
 
 </style>
