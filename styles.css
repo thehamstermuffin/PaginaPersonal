@@ -1,8 +1,9 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-/*Palette UID: 14d050kuiiUvNtru4nlwudexs7O*/
+/*Palette UID: 14d050kuiiUvNtru4nlwudexs7O
+Palette UID: 14d050kllllaFw0g0qFqFg0w0aF pastel*/
 <style>
 :root {
-  --main-color: #06c;
+  --main-color: red;
 }
 .color-morado{
   color: purple;
@@ -16,56 +17,61 @@
 
 /*Aplicar esto a todo*/
 *{
-/*    background-color: ;*/
+    background-color: #403075;
+    font-family: Roboto, monospace;
+    color:#12073B;
+    text-align: center;
   }
 
 /*  header, footer{
     background-color: rgba(45,45,45,0.1);
   }*/
 #welcome-page{
-  background-color: #23202D;
+  background-color: #605292;
   display: flex;
   width: 100vw;
   height: 100vh;
   align-items: center;
 
 }
-#nav-list{
-  background-color: var(--main-color);
+#nav-bar{
+  background-color: #877cb0;
   position: fixed;
   top:0;
   left:0;
   display: flex;
   flex-wrap: wrap;
   width:100vw;
-
 }
 .nav-link{
+  background-color: inherit;
     margin: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
 }
 #welcome-text{
-    color: #16151d;
+    background-color: inherit;
     font-family: Roboto, monospace;
     text-align: center;
     padding: 15px;
   }
 #head-title{
-   color: #0c0b0f;
+   background-color: inherit;
    text-align: center;
    padding: 15px;
-  }
-
-  p{
-    font-family: Roboto;
   }
 
   footer{
     text-align: center;
   }
-  .imagen-peque{ /*Centrar o acomodar imagen???*/
 
+  .imagen-peque{ /*Centrar o acomodar imagen???*/
     width: 100px;
     border-radius: 50%;
+  }
+  .logo{
+    height: 50px
   }
 
   .nav-list{
@@ -108,8 +114,6 @@
     text-align: center;
   }
 
-.logo{
-  height: 50px
-}
+
 
 </style>
