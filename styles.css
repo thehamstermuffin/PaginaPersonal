@@ -53,15 +53,15 @@ Palette UID: 14d050kllllaFw0g0qFqFg0w0aF pastel*/
 #welcome-text{
     background-color: inherit;
     font-family: Roboto, monospace;
-    text-align: center;
-    padding: 15px;
+
+    padding-top: 50vh;
   }
 #head-title{
    background-color: inherit;
    text-align: center;
-   padding: 15px;
+   padding: 0;
   }
-  /*
+
 .general-header{
   float:right;
   overflow:auto;
@@ -69,8 +69,8 @@ Palette UID: 14d050kllllaFw0g0qFqFg0w0aF pastel*/
 .specific-header{
   float:left;
   overflow:auto;
-}*/
-body{
+}
+main{
   padding-top: 100px;
 }
   footer{
