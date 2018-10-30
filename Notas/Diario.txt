@@ -78,3 +78,14 @@ Mejore el estilo en la página que hice hoy
 no queda parejo el estilo en css
 
 Pendientes: mejorar estilo en pagina personal
+
+Día 10:
+¿Qué funcionó?
+Mejore estilo de la pagina, ya tiene un formato mas presentable
+
+¿Qué no funcionó?
+encabezado queda tapado
+portada no queda como quiero
+no puedo entender como usar variables para los colores
+
+Pendientes: agregar imagenes, proyectos Contacto, crear pagina para poti
