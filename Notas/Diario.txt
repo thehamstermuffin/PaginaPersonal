@@ -91,3 +91,5 @@ no puedo entender como usar variables para los colores
 Pendientes: agregar imagenes, proyectos Contacto, crear pagina para poti
 
 Día 11: aprendi cosas de javascript, esta un poco confuso.
+
+Día 12:Estructuras de datos en JavaScript

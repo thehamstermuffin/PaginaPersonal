@@ -127,6 +127,17 @@ myarray.shift() quita el primer elemento
 myarray.unshift([]) agrega el primer elemento
 
 
+splice(); quitar/cambiar elementos
+slice();
+indexOf();
+//every(), forEach(), map() --> es mas versatil usar un for
+
+
+objetos
+hasOwnProperty()
+
+for...in statement
+
 --------------funciones----
 function functionName() {
   console.log("Hello World");
