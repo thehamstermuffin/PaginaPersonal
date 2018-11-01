@@ -156,3 +156,8 @@ Template literals allow you to create multi-line strings and to use string inter
 
 
 import { countItems } from "math_array_functions"
+
+
+----------------REGULAR EXPRESSIONS---------------------
+Regular expressions are special strings that represent a search pattern
+One way to test a regex is using the .test() method
