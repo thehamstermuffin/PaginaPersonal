@@ -134,3 +134,25 @@ function functionName() {
 Variables which are used without the var keyword are automatically created in the global scope.
 
 Strict equality (===) is the counterpart to the equality operator (==). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.
+
+
+--------------ES6--------------------
+A new keyword called let was introduced in ES6 to solve this potential issue with the var keyword.
+Note the "use strict". This enables Strict Mode, which catches common coding mistakes and "unsafe" actions.
+
+const has all the awesome features that let has, with the added bonus that variables declared using const are read-only. They are a constant value, which means that once a variable is assigned with const, it cannot be reassigned.
+However, it is important to understand that objects (including arrays and functions) assigned to a variable using const are still mutable. Using the const declaration only prevents reassignment of the variable identifier.
+
+"use strict";
+const s = [5, 6, 7];
+s = [1, 2, 3]; // throws error, trying to assign a const
+s[2] = 45; // works just as it would with an array declared with var or let
+console.log(s); // returns [5, 6, 45]
+
+To ensure your data doesn't change, JavaScript provides a function Object.freeze to prevent data mutation.
+
+
+Template literals allow you to create multi-line strings and to use string interpolation features to create strings.
+
+
+import { countItems } from "math_array_functions"
