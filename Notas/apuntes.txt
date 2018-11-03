@@ -108,6 +108,8 @@ grid-area: horizontal line to start at / vertical line to start at / horizontal 
 item1 { grid-area: 1/1/2/4; }
 
 ----------------JavaScript-----------------
+https://medium.freecodecamp.org/the-complete-javascript-handbook-f26b2c71719c
+
 data types which are undefined, null, boolean, string, symbol, number, and object
 When JavaScript variables are declared, they have an initial value of undefined
 In JavaScript all variables and function names are case sensitive
@@ -148,6 +150,10 @@ Strict equality (===) is the counterpart to the equality operator (==). However,
 
 
 --------------ES6--------------------
+ECMAScript  is the name of the JavaScript standard.
+
+When JavaScript was created, it was presented by Netscape and Sun Microsystems to Ecma and they gave it the name ECMA-262 alias ECMAScript.
+
 A new keyword called let was introduced in ES6 to solve this potential issue with the var keyword.
 Note the "use strict". This enables Strict Mode, which catches common coding mistakes and "unsafe" actions.
 
@@ -168,6 +174,14 @@ Template literals allow you to create multi-line strings and to use string inter
 
 import { countItems } from "math_array_functions"
 
+FUNCIONES
+const foo = function foo() {
+  //...
+}
+
+const foo = () => {
+  //...
+}
 
 ----------------REGULAR EXPRESSIONS---------------------
 Regular expressions are special strings that represent a search pattern
