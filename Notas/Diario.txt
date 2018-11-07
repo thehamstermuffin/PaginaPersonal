@@ -93,3 +93,9 @@ Pendientes: agregar imagenes, proyectos Contacto, crear pagina para poti
 Día 11: aprendi cosas de javascript, esta un poco confuso.
 
 Día 12:Estructuras de datos en JavaScript
+
+Día 13: Comence a hacer un simon dice;
+
+Día 14(4nov): No puedo hacer los retrason en javascript
+
+Día 15: Ya solo falta agregar comparación de cadenas
